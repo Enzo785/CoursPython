@@ -12,7 +12,7 @@ class Item(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"Hello": "H3"}
+    return {"Hello": "H3 2024"}
 
 @app.get("/enzo")
 def read_enzo():
