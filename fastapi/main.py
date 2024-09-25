@@ -16,7 +16,7 @@ def read_root():
 
 @app.get("/enzo")
 def read_enzo():
-    return {"Hello": "Enzo BENVENUTO H3 2024"}
+    return {"Hello": "Test Enzo BENVENUTO H3 2024"}
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: Union[str, None] = None):
